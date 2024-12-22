@@ -1,26 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<div class="w-full justify-items-center p-10">
+  <plateNumber class="max-w-96" />
+</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import plateNumber from './components/plate-number.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    plateNumber
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

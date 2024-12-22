@@ -7,11 +7,20 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vite": "^6.0.5",
+    "vuetify": "^3.7.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "sass": "^1.83.0",
+    "sass-loader": "^16.0.4",
+    "tailwindcss": "^3.4.17",
+    "vue": "^3.5.13",
+    "vue-loader": "^17.4.2"
   }
 }
