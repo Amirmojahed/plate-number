@@ -3,6 +3,9 @@
 A Vue 3 component for manually entering Iranian license plate numbers, built with Vue 3, Tailwind CSS, and Sass.
 
 ## Features
+
+<img width="531" alt="Screenshot 2025-02-11 at 9 17 15 AM" src="https://github.com/user-attachments/assets/c708b378-e957-4e7a-bd69-3e65db1e6723" />
+
 - Supports the Iranian license plate format
 - Styled with Tailwind CSS and Sass
 - Easy integration into Vue 3 projects
